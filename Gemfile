@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-ruby '2.3.0'
-gem 'rails', '4.2.6'
+ruby '2.4.0'
+gem 'rails', '~> 4.2.6'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
@@ -9,11 +9,11 @@ gem 'rails', '4.2.6'
 group :development, :test do
   gem 'sqlite3'
   gem 'byebug'
-  gem 'database_cleaner', '1.4.1'
-  gem 'capybara', '2.4.4'
+  gem 'database_cleaner'
+  gem 'capybara'
   gem 'launchy'
-  gem 'rspec-rails', '3.3.2'
-  gem 'ZenTest', '4.11.0'
+  gem 'rspec-rails'
+  gem 'ZenTest'
 end
 
 group :test do
@@ -29,7 +29,7 @@ end
 
   #gem 'therubyracer', '~> 0.12.0'
 gem 'sass-rails', '~> 5.0.3'
-gem 'coffee-rails', '~> 4.1.0'
+gem 'coffee-rails', '~> 4.2'
 gem 'uglifier', '>= 2.7.1'
 
 gem 'jquery-rails'
