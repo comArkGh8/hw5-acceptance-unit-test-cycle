@@ -10,6 +10,11 @@ class CreateMovies < ActiveRecord::Migration
       t.timestamps
     end
   end
+  
+ # easier would be to add the change directly here! 
+ # def change
+ #   add_column :movies, :director, :string
+ # end
 
   def down
     drop_table :movies
