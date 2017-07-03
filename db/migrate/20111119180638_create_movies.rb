@@ -15,6 +15,9 @@ class CreateMovies < ActiveRecord::Migration
  # def change
  #   add_column :movies, :director, :string
  # end
+ # instead I used: 
+ # To add new field "director" to this schema, create Migration by:
+ # rails generate migration add_director_to_movie director:string
 
   def down
     drop_table :movies
