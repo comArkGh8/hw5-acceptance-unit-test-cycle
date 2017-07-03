@@ -1,0 +1,10 @@
+
+
+-# in app/views/movies/find.html.haml
+%h2 Movies with same director as that of #{@movie.title}
+
+%ul
+  - @movies_with_director.each do |movie_name|
+    %li= movie_name
+
+= link_to 'Back', movies_path
