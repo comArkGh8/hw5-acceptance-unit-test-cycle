@@ -1,11 +1,11 @@
 {
   "RSpec": {
     "coverage": {
-      "/home/sauld/computer_programming/CS169/1/hw5/hw5-rottenpotatoes/app/helpers/application_helper.rb": [
+      "/home/sauld/computer_programming/CS169/1/hw5/rottenpotatoes/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/home/sauld/computer_programming/CS169/1/hw5/hw5-rottenpotatoes/app/helpers/movies_helper.rb": [
+      "/home/sauld/computer_programming/CS169/1/hw5/rottenpotatoes/app/helpers/movies_helper.rb": [
         1,
         null,
         1,
@@ -13,7 +13,7 @@
         null,
         null
       ],
-      "/home/sauld/computer_programming/CS169/1/hw5/hw5-rottenpotatoes/app/controllers/movies_controller.rb": [
+      "/home/sauld/computer_programming/CS169/1/hw5/rottenpotatoes/app/controllers/movies_controller.rb": [
         1,
         null,
         1,
@@ -21,32 +21,32 @@
         null,
         null,
         1,
-        0,
-        0,
+        2,
+        2,
         null,
         null,
         null,
         1,
-        0,
-        0,
+        3,
+        3,
         null,
-        0,
+        1,
         null,
-        0,
+        1,
         null,
-        0,
-        0,
+        3,
+        3,
         null,
-        0,
-        0,
+        3,
+        18,
         null,
         null,
-        0,
-        0,
-        0,
-        0,
+        3,
+        2,
+        2,
+        2,
         null,
-        0,
+        1,
         null,
         null,
         1,
@@ -88,15 +88,15 @@
         null,
         null
       ],
-      "/home/sauld/computer_programming/CS169/1/hw5/hw5-rottenpotatoes/app/controllers/application_controller.rb": [
+      "/home/sauld/computer_programming/CS169/1/hw5/rottenpotatoes/app/controllers/application_controller.rb": [
         1,
         1,
         null
       ],
-      "/home/sauld/computer_programming/CS169/1/hw5/hw5-rottenpotatoes/app/models/movie.rb": [
+      "/home/sauld/computer_programming/CS169/1/hw5/rottenpotatoes/app/models/movie.rb": [
         1,
         1,
-        0,
+        3,
         null,
         null,
         null,
@@ -111,6 +111,120 @@
         null
       ]
     },
-    "timestamp": 1499155972
+    "timestamp": 1499165020
+  },
+  "Cucumber Features": {
+    "coverage": {
+      "/home/sauld/computer_programming/CS169/1/hw5/rottenpotatoes/app/models/movie.rb": [
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        2,
+        2,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/home/sauld/computer_programming/CS169/1/hw5/rottenpotatoes/app/controllers/movies_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        4,
+        4,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        0,
+        null,
+        0,
+        null,
+        1,
+        1,
+        null,
+        1,
+        6,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        1,
+        2,
+        2,
+        1,
+        1,
+        null,
+        2,
+        null,
+        null,
+        null
+      ],
+      "/home/sauld/computer_programming/CS169/1/hw5/rottenpotatoes/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
+      ],
+      "/home/sauld/computer_programming/CS169/1/hw5/rottenpotatoes/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/home/sauld/computer_programming/CS169/1/hw5/rottenpotatoes/app/helpers/movies_helper.rb": [
+        1,
+        null,
+        1,
+        0,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1499165032
   }
 }

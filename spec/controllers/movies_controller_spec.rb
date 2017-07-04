@@ -94,8 +94,44 @@ describe MoviesController do
     end  
    end
 
+  # test for index
+  # index is a get operation
+   describe 'show the main page' do
+    #first create a factory movie
+    let!(:movie) {FactoryGirl.create(:movie)}
 
+    it 'index itself should render the index page' do
+      get :index
+      expect(response).to render_template(:index)
+    end
 
+    it 'sorting by title gives a hilite to the title_header' do
+      get :index, { sort: 'title'}
+      expect(assigns(:title_header)).to eql('hilite')
+    end
+
+    it 'sorting by date gives a hilite to the date_header' do
+      get :index, { sort: 'release_date'}
+      expect(assigns(:date_header)).to eql('hilite')
+    end
+   end
+
+  #test for show
+  describe 'show action' do
+    let!(:movie) { FactoryGirl.create(:movie) }
+    # show takes the movie id as a variable
+    before(:each) do
+      get :show, id: movie.id
+    end
+
+    it 'should find the movie' do
+      expect(assigns(:movie)).to eql(movie)
+    end
+
+    it 'should render the show template' do
+      expect(response).to render_template('show')
+    end
+  end
 end
 
 
